@@ -6,7 +6,68 @@
 </head>
 <body>
 
+<div class="clock-box">
+  <select class="select country">
+    <option>Polska</option>
+    <option>Czechy</option>
+    <option>Słowacja</option>
+    <option>Białoruś</option>
+  </select>
 
+  <select class="select citys">
+    <option>Praga</option>
+    <option>Wiedeń</option>
+    <option>Mińsk</option>
+    <option>Kijów</option>
+  </select>
+
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand"></div>
+      <div class="hand min-hand"></div>
+      <div class="hand second-hand"></div>
+    </div>
+  </div>
+</div>
+
+<div class="clock-box">
+  <select class="select country">
+    <option>Polska</option>
+    <option>Czechy</option>
+    <option>Słowacja</option>
+    <option>Białoruś</option>
+  </select>
+
+  <select class="select citys">
+    <option>Praga</option>
+    <option>Wiedeń</option>
+    <option>Mińsk</option>
+    <option>Kijów</option>
+  </select>
+  
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand"></div>
+      <div class="hand min-hand"></div>
+      <div class="hand second-hand"></div>
+    </div>
+  </div>
+</div>
+
+  <div class="clock-box">
+    <select class="select country">
+      <option>Polska</option>
+      <option>Czechy</option>
+      <option>Słowacja</option>
+      <option>Białoruś</option>
+    </select>
+
+    <select class="select citys">
+      <option>Praga</option>
+      <option>Wiedeń</option>
+      <option>Mińsk</option>
+      <option>Kijów</option>
+    </select>
     <div class="clock">
       <div class="clock-face">
         <div class="hand hour-hand"></div>
@@ -14,22 +75,7 @@
         <div class="hand second-hand"></div>
       </div>
     </div>
-
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
-      </div>
-    </div>
-
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
-      </div>
-    </div>
+  </div>
 
   <style>
     html {
@@ -49,12 +95,19 @@
       align-items: center;
     }
 
+    .clock-box {
+      margin: auto;
+    }
+
+    .select {
+      margin-bottom: 50px;
+    }
+
     .clock {
       width: 30rem;
       height: 30rem;
       border:20px solid white;
       border-radius:50%;
-      margin: auto;
       position: relative;
       padding:2rem;
       box-shadow:
